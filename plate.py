@@ -49,7 +49,7 @@ for combo in keywords:
     else:
         available.append(combo)
     time.sleep(5)
-    driver.back
+    driver.back()
 
 #initialize dict to be converted to df
 table = {
